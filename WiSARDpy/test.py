@@ -17,7 +17,7 @@ w = WiSARD(2,bleaching=False,seed=424242)  # set seed 0 (or skip it) for nondete
 w.fit(X, y)
 
 # classify
-print w.predict_proba(X), w.predict(X)
+print(w.predict_proba(X), w.predict(X))
 # classify by enabling bleaching
 w.setBleaching()
-print w.predict_proba(X), w.predict(X)
+print(w.predict_proba(X), w.predict(X))
