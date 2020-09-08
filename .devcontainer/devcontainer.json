@@ -26,7 +26,9 @@
 		"donjayamanne.python-extension-pack",
 		"njpwerner.autodocstring",
 		"twxs.cmake",
-		"ms-vscode.cmake-tools"
+		"ms-vscode.cmake-tools",
+		"mhutchie.git-graph",
+		"eamodio.gitlens"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -39,6 +41,8 @@
 	// "remoteUser": "vscode"
 
 }
+
+
 
 
 
